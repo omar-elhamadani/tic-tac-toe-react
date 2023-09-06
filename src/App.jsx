@@ -67,7 +67,7 @@ function App() {
           ""
         )}
         {winner !== "" ? (
-          <div>
+          <div className="winner">
             <h2>the winner is {winner},play again?</h2>
             <button onClick={reset}>play again</button>
           </div>
